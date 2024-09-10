@@ -6,10 +6,8 @@ import org.openqa.selenium.WebElement;
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-    public class Test1 extends BaseDriver {
+public class Task1_01_Betul extends BaseDriver {
         @Test
         public void Test(){
             driver.get("https://www.akakce.com/");

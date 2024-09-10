@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebElement;
 
 
-public class MessageBox extends BaseDriver {
+public class Task6_01_Sefacan extends BaseDriver {
     @Test
     public void test1() {
         driver.get("https://www.akakce.com/ikinci-el-firsatlar/");
