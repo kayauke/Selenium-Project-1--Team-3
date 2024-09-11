@@ -1,16 +1,19 @@
 package Task2_Alper;
 
+import Utlity.BaseDriver;
 import Utlity.MyFunc;
 import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Task2_01_Alper {
-    public static void main(String[] args) {
+public class Task2_01_Alper extends BaseDriver {
 
-        WebDriver driver=new ChromeDriver();
+        @Test
+        public void Task2(){
+
         driver.get("https://www.akakce.com/");
 
         WebElement profil=driver.findElement(By.xpath("//a[text()='Giriş Yap']"));
@@ -34,11 +37,8 @@ public class Task2_01_Alper {
 
         Assert.assertTrue("Aranılan kelime bulunamadı", find.getText().equals("Alper"));
 
-
-
         MyFunc.Bekle(2);
         driver.quit();
-
 
         }
 
