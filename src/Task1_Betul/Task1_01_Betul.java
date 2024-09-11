@@ -1,11 +1,11 @@
 package Task1_Betul;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
-import org.junit.Test;
 
 public class Task1_01_Betul extends BaseDriver {
         @Test
