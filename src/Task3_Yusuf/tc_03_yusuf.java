@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Test;
 
-public class placeholder extends BaseDriver {
+public class tc_03_yusuf extends BaseDriver {
 
     @Test
     public void Test() {
