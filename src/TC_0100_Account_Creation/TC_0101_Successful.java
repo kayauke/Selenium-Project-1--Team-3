@@ -1,4 +1,4 @@
-package Task1_Betul;
+package TC_0100_Account_Creation;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,14 +7,9 @@ import org.openqa.selenium.WebElement;
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
 
-import Utlity.BaseDriver;
-import Utlity.MyFunc;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-    public class Task1_01_Betul extends BaseDriver {
+    public class TC_0101_Successful extends BaseDriver {
         @Test
         public void Test(){
             driver.get("https://www.akakce.com/");

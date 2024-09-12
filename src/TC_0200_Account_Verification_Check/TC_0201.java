@@ -1,15 +1,13 @@
-package Task2_Alper;
+package TC_0200_Account_Verification_Check;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Task2_01_Alper extends BaseDriver {
+public class TC_0201 extends BaseDriver {
 
         @Test
         public void Task2(){

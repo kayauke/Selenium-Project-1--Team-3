@@ -1,4 +1,4 @@
-package Task6_Sefacan;
+package TC_0600_Message_Box_Check;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebElement;
 
 
-public class Task6_01_Sefacan extends BaseDriver {
+public class TC_0601_Successful extends BaseDriver {
     @Test
     public void test1() {
         driver.get("https://www.akakce.com/ikinci-el-firsatlar/");

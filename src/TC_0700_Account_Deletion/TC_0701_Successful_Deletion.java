@@ -1,4 +1,4 @@
-package Task7_Kaya;
+package TC_0700_Account_Deletion;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
@@ -7,7 +7,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Task7_01_Kaya extends BaseDriver {
+import static Utlity.BaseDriver.driver;
+
+public class TC_0701_Successful_Deletion extends BaseDriver{
 
     @Test
     public void Test1() {
@@ -64,8 +66,5 @@ public class Task7_01_Kaya extends BaseDriver {
         Assert.assertTrue("Hesap Silme islemi gerceklesemedi",errorMessage.isDisplayed());
 
         MyFunc.Bekle(3);
-        driver.quit();
-
-
-    }
+        //driver.quit();
 }

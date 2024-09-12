@@ -1,4 +1,4 @@
-package Task3_Yusuf;
+package TC_0300_Logout;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Test;
 
-public class tc_03_yusuf extends BaseDriver {
+public class TC_0301_Successful extends BaseDriver {
 
     @Test
     public void Test() {

@@ -1,4 +1,4 @@
-package Task5_Muhammed;
+package TC_0500_Order_List_Check;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class placeholder extends BaseDriver{
+public class TC_0501_Successful extends BaseDriver{
 
     @Test
     public void test() {
