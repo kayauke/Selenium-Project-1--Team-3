@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import static Utlity.BaseDriver.driver;
 
-public class TC_0701_Successful_Deletion extends BaseDriver{
+public class TC_0701_Successful_Deletion extends BaseDriver {
 
     @Test
     public void Test1() {
@@ -50,7 +50,8 @@ public class TC_0701_Successful_Deletion extends BaseDriver{
 
         //Hesap silme kismi aciliyor
         WebElement hesapsil = driver.findElement(By.cssSelector("#AL > li:nth-child(4) > a:nth-child(5)"));
-        hesapsil.click(); MyFunc.Bekle(2);
+        hesapsil.click();
+        MyFunc.Bekle(2);
 
         //Hesap silmek icin sifre girme kismi
         WebElement passwordsil = driver.findElement(By.xpath("//input[@id=\"p\"]"));
@@ -58,13 +59,15 @@ public class TC_0701_Successful_Deletion extends BaseDriver{
 
         //Hesap sil onay buton click
         WebElement passwordSilOnay = driver.findElement(By.xpath("//input[contains(@class,\"s save\")]"));
-        passwordSilOnay.click(); MyFunc.Bekle(2);
+        passwordSilOnay.click();
+        MyFunc.Bekle(2);
 
         //Adim 7: Hesap silme islemi basarili sekilde tamamlandiginda, uygun bir mesajin goruntulendigini kontrol eder.
         //Error Message
         WebElement errorMessage = driver.findElement(By.cssSelector("#m-w > div > div.m-c > div > p"));
-        Assert.assertTrue("Hesap Silme islemi gerceklesemedi",errorMessage.isDisplayed());
+        Assert.assertTrue("Hesap Silme islemi gerceklesemedi", errorMessage.isDisplayed());
 
         MyFunc.Bekle(3);
         //driver.quit();
+    }
 }
