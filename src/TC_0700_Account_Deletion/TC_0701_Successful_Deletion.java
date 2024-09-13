@@ -19,9 +19,6 @@ public class TC_0701_Successful_Deletion extends BaseDriver {
 
         //Adim 2: Kullanici Ana sayfada Giris Yap butonuna tiklar
         WebElement giris = driver.findElement(By.cssSelector("div[id='H_rl_v8']>:nth-child(2)"));
-        //WebElement giris2 = driver.findElement(By.partialLinkText("Giriş Yap"));
-        //WebElement giris3 = driver.findElement(By.id("#HM_r_v8 >:nth-child(2))"));
-        //WebElement giris4 = driver.findElement(By.xpath("//a[@rel='nofollow' and @id='H_a_v8']"));
         giris.click();
         MyFunc.Bekle(2);
 
@@ -43,7 +40,7 @@ public class TC_0701_Successful_Deletion extends BaseDriver {
         WebElement hesabimm = driver.findElement(By.cssSelector("#H_a_v8"));
         hesabimm.click();
         MyFunc.Bekle(2);
-        //WebElement hesabim = driver.findElement(By.xpath("//div[@id='HM_v8']/ul/li[5]/a"));
+
         WebElement hesabim2 = driver.findElement(By.linkText("Hesabım"));
         hesabim2.click();
         MyFunc.Bekle(2);
